@@ -1,0 +1,14 @@
+# Sezione 1: r-- (header ELF)
+vol3 -f ../../memory.dump linux.proc.Maps --pid 659726 --address 0x7fd142a09001 --dump 
+
+# Sezione 2: r-x (code)
+vol3 -f ../../memory.dump linux.proc.Maps --pid 659726 --address 0x7fd142a0b001 --dump
+
+# Sezione 3: r-- (rodata)
+vol3 -f ../../memory.dump linux.proc.Maps --pid 659726 --address 0x7fd142a0e001 --dump
+
+# Sezione 4: r-- (relro)
+vol3 -f ../../memory.dump linux.proc.Maps --pid 659726 --address 0x7fd142a0f001 --dump
+
+# Sezione 5: rw- (data/GOT/PLT)
+vol3 -f ../../memory.dump linux.proc.Maps --pid 659726 --address 0x7fd142a10001 --dump

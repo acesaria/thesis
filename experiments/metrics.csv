@@ -1,0 +1,3 @@
+Experiment,Date,OS,Found,Total,DR_%,FP,TTD_min,QoR_%,Tool_Combo,Notes
+baseline_u22,2026-02-10,baseline,clean_system,n/a,,,,,,"Fresh Ubuntu 22.04 for baseline. No LD_PRELOAD. Malfind: 2 hit (unattended-upgrade, network dispatcher, both legit)."
+father_u22,2026-02-17,rootkit,father

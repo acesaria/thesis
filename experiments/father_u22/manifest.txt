@@ -1,0 +1,27 @@
+Experiment Information:
+-----------------------
+Scenario:        father_u22_v2
+VM Name:         ubuntu22-forensics
+Analyst:         anto@anto-Aspire
+Case:            Thesis - Linux Rootkit Detection
+Date:            2026-02-18
+
+Memory Acquisition:
+-------------------
+Start:    2026-02-18 03:42:58
+End:      2026-02-18 03:43:04
+File:     memory.dump
+Size:     2064.2 MB
+SHA256:   2632f76ed777e4e74fc48c936d383cab11bbfd5a2f088f082b621717d0e5e9b9
+Method:   virsh dump --memory-only
+
+Disk Acquisition:
+-----------------
+Start:    2026-02-18 03:43:32
+End:      2026-02-18 03:47:53
+File:     disk.E01
+Size:     3.9 GB
+MD5:      a1828f4d077aa9962b75eae2184d7150
+Method:   ewfacquire -c fast (QCOW2→RAW converted)
+Source:   /var/lib/libvirt/images/ubuntu22-forensics.qcow2
+

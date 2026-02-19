@@ -1,0 +1,22 @@
+cat > ~/thesis/.gitignore << 'EOF'
+# Raw forensic artifacts (too large)
+*.dump
+*.E01
+*.E02
+*.E03
+*.raw
+*.img
+*.qcow2
+
+# Temp files
+/tmp/
+*.log
+*.tmp
+
+# Codium 
+.vscode/
+
+# Large experiment artifacts
+experiments/*/memory*
+experiments/*/disk*
+EOF

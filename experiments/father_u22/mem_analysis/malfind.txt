@@ -1,0 +1,32 @@
+Volatility 3 Framework 2.28.0
+
+PID	Process	Start	End	Path	Protection	Hexdump	Disasm
+
+638	networkd-dispat	0x7f3787858000	0x7f3787859000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 80 9f 86 37 7f 00 00 ............7...
+a8 ad b6 9d 49 56 00 00 00 e2 bb 86 37 7f 00 00 ....IV......7...	
+0x7f3787858000:	add	byte ptr [rax], al
+0x7f3787858002:	add	byte ptr [rax], al
+0x7f3787858004:	add	byte ptr [rax], al
+0x7f3787858006:	add	byte ptr [rax], al
+0x7f3787858008:	push	rbx
+0x7f3787858009:	add	byte ptr [rax], al
+0x7f378785800b:	add	byte ptr [rax], al
+0x7f378785800d:	add	byte ptr [rax], al
+0x7f378785800f:	add	bl, dh
+693	unattended-upgr	0x7f82d9aaf000	0x7f82d9ab0000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 c0 1a d9 82 7f 00 00 ................
+38 f7 0c f2 aa 55 00 00 00 a2 9a d8 82 7f 00 00 8....U..........	
+0x7f82d9aaf000:	add	byte ptr [rax], al
+0x7f82d9aaf002:	add	byte ptr [rax], al
+0x7f82d9aaf004:	add	byte ptr [rax], al
+0x7f82d9aaf006:	add	byte ptr [rax], al
+0x7f82d9aaf008:	push	rbx
+0x7f82d9aaf009:	add	byte ptr [rax], al
+0x7f82d9aaf00b:	add	byte ptr [rax], al
+0x7f82d9aaf00d:	add	byte ptr [rax], al
+0x7f82d9aaf00f:	add	bl, dh

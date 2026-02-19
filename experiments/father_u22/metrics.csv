@@ -1,0 +1,24 @@
+Category,Source,Found,Total,DR_%,FP,TTD_min,QoR_%,Tool,Notes
+command_history,memory,9,18,50,0,3,75,linux.bash.Bash,Commands executed in backdoor shell not recorded. Timestamps/order inaccurate
+command_history,disk,9,18,50,0,3,100,sleuthkit_icat,"Commands executed in backdoor shell not recorded. Order almost correct, slightly inaccurate after priv_esc"
+rootkit_library,memory,5,5,100,0,5,75,linux.proc.Maps,5 VMA sections extracted (r-- r-x r-- r-- rw-). Reconstruction incomplete due to runtime load/execution
+rootkit_library,disk,2,2,100,0,1,100,sleuthkit_fls+icat,Libraries retrieved (/tmp/rk.so /usr/lib/selinux.so.3). MD5: 12801f3133234dcdbfa1694d483abf27
+ld_preload_infection,memory,9,9,100,0,1,100,linux.elfs.Elfs+grep,9 processes infected (rsyslogd sshd sh systemd bash md5sum)
+ld_preload_ioc,disk,1,1,100,0,1,100,sleuthkit_fls,/etc/ld.so.preload = IOC for LD_PRELOAD rootkit
+process_artifacts,memory,7,7,100,0,6,100,linux.pstree.Pstree,Backdoor: sshd(1080)->sh(1087). PrivEsc: sshd(634649)->sshd(635977)->bash(636080)->bash(659726) + cryptominer(1092)
+network_artifacts,memory,5,5,100,0,5,100,linux.netscan+linux.sockstat,"Backdoor 54321 ESTABLISHED, SSH 53658 ESTABLISHED, transfer 8888/9999 CLOSE"
+file_timeline_reconstruction,disk,8,8,100,0,20,85,sleuthkit_mactime,"rk.so deploy(02:34:45), cryptominer(02:37:52), shadow exfil(02:38:10), ld.so.preload(02:43:16)"
+log_artifacts,disk,8,8,100,0,4,100,sleuthkit_icat,"Auth.log: 3 sudo, 2 sshd restart, 3 SSH connections. UTC timestamps"
+exfiltration_artifacts,disk,1,1,100,0,2,100,sleuthkit_fls,/tmp/___shadow (1057 bytes) for /etc/shadow exfiltration
+malware_artifacts,disk,1,1,100,0,2,100,sleuthkit_icat,"Fake cryptominer /tmp/___cryptominer.sh (66 bytes, md5sum loop)"
+deleted_files,disk,0,2,0,0,8,0,extundelete,/tmp/___secret.txt and ___notes.txt not recovered (tmp overwrite)
+,,65,85,83.3333333333333,,,91.6666666666667,,
+,,,,,,,,,"It is possible, especially with regard to disk analysis, to perform rigorous analyses that involve in-depth analysis of all log files. In addition, advanced timeline generation tools such as Plaso can help to accurately reconstruct the timeline of the entire attack chain. For simplicity, a smaller manual investigation was carried out, which was nevertheless forensically sound and sufficient for the scenario. "
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+DR% = Detection Rate (Found Artifacts / Total Artifacts) × 100,,,,,,,,,
+FP = False Positive (i.e Artifacts flagged as malicious that aren't),,,,,,,,,
+TTD = Time to Detect,,,,,,,,,
+QoR% = Quality of recostruction (Qualitative heuristic),,,,,,,,,

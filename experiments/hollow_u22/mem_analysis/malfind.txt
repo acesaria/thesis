@@ -1,0 +1,119 @@
+Volatility 3 Framework 2.28.0
+
+PID	Process	Start	End	Path	Protection	Hexdump	Disasm
+
+641	networkd-dispat	0x7fe08bdc2000	0x7fe08bdc3000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 20 f6 8a e0 7f 00 00 ......... ......
+a8 cd 9e fe ac 55 00 00 00 82 12 8b e0 7f 00 00 .....U..........	
+0x7fe08bdc2000:	add	byte ptr [rax], al
+0x7fe08bdc2002:	add	byte ptr [rax], al
+0x7fe08bdc2004:	add	byte ptr [rax], al
+0x7fe08bdc2006:	add	byte ptr [rax], al
+0x7fe08bdc2008:	push	rbx
+0x7fe08bdc2009:	add	byte ptr [rax], al
+0x7fe08bdc200b:	add	byte ptr [rax], al
+0x7fe08bdc200d:	add	byte ptr [rax], al
+0x7fe08bdc200f:	add	bl, dh
+701	unattended-upgr	0x7f2d65aa2000	0x7f2d65aa3000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 f0 19 65 2d 7f 00 00 ...........e-...
+38 97 0e 07 31 56 00 00 00 d2 99 64 2d 7f 00 00 8...1V.....d-...	
+0x7f2d65aa2000:	add	byte ptr [rax], al
+0x7f2d65aa2002:	add	byte ptr [rax], al
+0x7f2d65aa2004:	add	byte ptr [rax], al
+0x7f2d65aa2006:	add	byte ptr [rax], al
+0x7f2d65aa2008:	push	rbx
+0x7f2d65aa2009:	add	byte ptr [rax], al
+0x7f2d65aa200b:	add	byte ptr [rax], al
+0x7f2d65aa200d:	add	byte ptr [rax], al
+0x7f2d65aa200f:	add	bl, dh
+1067	bash	0x7f0a02d8b000	0x7f0a0307e000	Anonymous Mapping	rwx	
+7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 .ELF............
+03 00 3e 00 01 00 00 00 ba 93 00 00 00 00 00 00 ..>.............
+40 00 00 00 00 00 00 00 c8 14 11 00 00 00 00 00 @...............
+00 00 00 00 40 00 38 00 06 00 40 00 20 00 1d 00 ....@.8...@. ...	
+0x7f0a02d8b000:	jg	0x7f0a02d8b047
+0x7f0a02d8b002:	add	r8b, byte ptr [rcx]
+0x7f0a02d8b006:	add	dword ptr [rax], eax
+0x7f0a02d8b008:	add	byte ptr [rax], al
+0x7f0a02d8b00a:	add	byte ptr [rax], al
+0x7f0a02d8b00c:	add	byte ptr [rax], al
+0x7f0a02d8b00e:	add	byte ptr [rax], al
+0x7f0a02d8b010:	add	eax, dword ptr [rax]
+0x7f0a02d8b012:	add	byte ptr ds:[rcx], al
+0x7f0a02d8b015:	add	byte ptr [rax], al
+0x7f0a02d8b017:	add	byte ptr [rdx + 0x93], bh
+0x7f0a02d8b01d:	add	byte ptr [rax], al
+0x7f0a02d8b01f:	add	byte ptr [rax], al
+0x7f0a02d8b022:	add	byte ptr [rax], al
+0x7f0a02d8b024:	add	byte ptr [rax], al
+0x7f0a02d8b026:	add	byte ptr [rax], al
+0x7f0a02d8b028:	enter	0x1114, 0
+0x7f0a02d8b02c:	add	byte ptr [rax], al
+0x7f0a02d8b02e:	add	byte ptr [rax], al
+0x7f0a02d8b030:	add	byte ptr [rax], al
+0x7f0a02d8b032:	add	byte ptr [rax], al
+0x7f0a02d8b034:	add	byte ptr [rax], dil
+0x7f0a02d8b037:	add	byte ptr [rsi], al
+0x7f0a02d8b039:	add	byte ptr [rax], al
+0x7f0a02d8b03c:	and	byte ptr [rax], al
+1067	bash	0x7f0a03080000	0x7f0a030aa000	/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2	r-x	
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................	
+0x7f0a03080000:	add	byte ptr [rax], al
+0x7f0a03080002:	add	byte ptr [rax], al
+0x7f0a03080004:	add	byte ptr [rax], al
+0x7f0a03080006:	add	byte ptr [rax], al
+0x7f0a03080008:	add	byte ptr [rax], al
+0x7f0a0308000a:	add	byte ptr [rax], al
+0x7f0a0308000c:	add	byte ptr [rax], al
+0x7f0a0308000e:	add	byte ptr [rax], al
+0x7f0a03080010:	add	byte ptr [rax], al
+0x7f0a03080012:	add	byte ptr [rax], al
+0x7f0a03080014:	add	byte ptr [rax], al
+0x7f0a03080016:	add	byte ptr [rax], al
+0x7f0a03080018:	add	byte ptr [rax], al
+0x7f0a0308001a:	add	byte ptr [rax], al
+0x7f0a0308001c:	add	byte ptr [rax], al
+0x7f0a0308001e:	add	byte ptr [rax], al
+0x7f0a03080020:	add	byte ptr [rax], al
+0x7f0a03080022:	add	byte ptr [rax], al
+0x7f0a03080024:	add	byte ptr [rax], al
+0x7f0a03080026:	add	byte ptr [rax], al
+0x7f0a03080028:	add	byte ptr [rax], al
+0x7f0a0308002a:	add	byte ptr [rax], al
+0x7f0a0308002c:	add	byte ptr [rax], al
+0x7f0a0308002e:	add	byte ptr [rax], al
+0x7f0a03080030:	add	byte ptr [rax], al
+0x7f0a03080032:	add	byte ptr [rax], al
+0x7f0a03080034:	add	byte ptr [rax], al
+0x7f0a03080036:	add	byte ptr [rax], al
+0x7f0a03080038:	add	byte ptr [rax], al
+0x7f0a0308003a:	add	byte ptr [rax], al
+0x7f0a0308003c:	add	byte ptr [rax], al
+0x7f0a0308003e:	add	byte ptr [rax], al
+1067	bash	0x7f0a030b5000	0x7f0a030b6000	Anonymous Mapping	rwx	
+57 48 31 ff 48 c7 c6 e4 27 2f 00 48 c7 c2 07 00 WH1.H...'/.H....
+00 00 49 c7 c2 22 00 00 00 4d 31 c0 4d 31 c9 48 ..I.."...M1.M1.H
+c7 c0 09 00 00 00 0f 05 48 89 f2 48 89 c6 5f 49 ........H..H.._I
+c7 c2 00 01 00 00 4d 31 c0 4d 31 c9 48 c7 c0 2d ......M1.M1.H..-	
+0x7f0a030b5000:	push	rdi
+0x7f0a030b5001:	xor	rdi, rdi
+0x7f0a030b5004:	mov	rsi, 0x2f27e4
+0x7f0a030b500b:	mov	rdx, 7
+0x7f0a030b5012:	mov	r10, 0x22
+0x7f0a030b5019:	xor	r8, r8
+0x7f0a030b501c:	xor	r9, r9
+0x7f0a030b501f:	mov	rax, 9
+0x7f0a030b5026:	syscall	
+0x7f0a030b5028:	mov	rdx, rsi
+0x7f0a030b502b:	mov	rsi, rax
+0x7f0a030b502e:	pop	rdi
+0x7f0a030b502f:	mov	r10, 0x100
+0x7f0a030b5036:	xor	r8, r8
+0x7f0a030b5039:	xor	r9, r9

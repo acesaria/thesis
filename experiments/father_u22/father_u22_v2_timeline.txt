@@ -1,0 +1,9 @@
+[02:34:04] T0: Start experiment
+[02:34:44] T1: Deploy Father
+[02:36:22] T2: Backdoor connection
+[02:37:35] T3: Download cryptominer
+[02:38:06] T4: Exfiltrate shadow file
+[02:38:35] T5: Create hidden files
+[02:39:18] T6: Cleanup rootkit file and bash history [SKIPPED]
+[02:40:53] T7: Privilege escalation
+[02:42:48] T8: Acquisition start

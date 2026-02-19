@@ -1,0 +1,17 @@
+Experiment Information:
+-----------------------
+Scenario:        shellcode_inject_rip_u22
+VM Name:         ubuntu22-forensics
+Analyst:         anto@anto-Aspire
+Case:            Thesis - Linux Rootkit Detection
+Date:            2026-02-19
+
+Memory Acquisition:
+-------------------
+Start:    2026-02-19 05:43:59
+End:      2026-02-19 05:44:07
+File:     memory.dump
+Size:     2064.2 MB
+SHA256:   02c0948c7ab42466d2d6c208c72ed202d6e5eca3a49a5bd3813322ca5b913d6a
+Method:   virsh dump --memory-only
+

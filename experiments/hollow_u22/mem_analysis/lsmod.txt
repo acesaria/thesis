@@ -1,0 +1,78 @@
+Volatility 3 Framework 2.28.0
+
+Offset	Module Name	Code Size	Taints	Load Arguments	File Output
+
+0xffffc0ba4400	intel_rapl_msr	0x5000			N/A
+0xffffc0a91dc0	intel_rapl_common	0xa000			N/A
+0xffffc0c3dfc0	kvm_intel	0x5b000		enlightened_vmcs=None, vmentry_l1d_flush=None, ple_window_max=None, ple_window_shrink=None, ple_window_grow=None, ple_window=None, ple_gap=None, allow_smaller_maxphyaddr=None, preemption_timer=None, dump_invalid_vmcs=None, pml=None, nested=None, enable_apicv=None, fasteoi=None, emulate_invalid_guest_state=None, eptad=None, unrestricted_guest=None, ept=None, flexpriority=None, vnmi=None, vpid=None, nested_early_check=None, enable_shadow_vmcs=None, sgx=None	N/A
+0xffffc0b5ac00	kvm	0xfe000		halt_poll_ns_shrink=None, halt_poll_ns_grow_start=None, halt_poll_ns_grow=None, halt_poll_ns=None, mitigate_smt_rsb=None, pi_inject_timer=None, force_emulation_prefix=None, enable_vmware_backdoor=None, vector_hashing=None, lapic_timer_advance_ns=None, tsc_tolerance_ppm=None, kvmclock_periodic_sync=None, min_timer_period_us=None, report_ignored_msrs=None, ignore_msrs=None, flush_on_reuse=None, nx_huge_pages_recovery_ratio=None, nx_huge_pages=None, mmio_caching=None, tdp_mmu=None	N/A
+0xffffc0a9ed40	rapl	0x5000			N/A
+0xffffc0a70140	input_leds	0x4000			N/A
+0xffffc0a7d6c0	joydev	0x8000			N/A
+0xffffc0a66300	serio_raw	0x5000			N/A
+0xffffc0a22340	qemu_fw_cfg	0x5000			N/A
+0xffffc0a172c0	mac_hid	0x4000			N/A
+0xffffc0a12480	binfmt_misc	0x6000			N/A
+0xffffc09dd240	sch_fq_codel	0x5000			N/A
+0xffffc09cf440	dm_multipath	0xa000		queue_if_no_path_timeout_secs=None	N/A
+0xffffc09c0180	scsi_dh_rdac	0x5000		rdac_logging=None	N/A
+0xffffc09b7100	scsi_dh_emc	0x4000			N/A
+0xffffc09ae100	scsi_dh_alua	0x5000		optimize_stpg=None	N/A
+0xffffc09a80c0	msr	0x4000		allow_writes=None	N/A
+0xffffc09a02c0	efi_pstore	0x4000		pstore_disable=None	N/A
+0xffffc099b7c0	ip_tables	0x8000			N/A
+0xffffc0988a40	x_tables	0xd000			N/A
+0xffffc097c8c0	autofs4	0xc000			N/A
+0xffffc0935940	btrfs	0x17e000			N/A
+0xffffc07f1a00	blake2b_generic	0x5000			N/A
+0xffffc07e2c40	zstd_compress	0x38000			N/A
+0xffffc07a6700	raid10	0x11000			N/A
+0xffffc0787880	raid456	0x28000		devices_handle_discard_safely=None	N/A
+0xffffc075e440	async_raid6_recov	0x6000			N/A
+0xffffc07530c0	async_memcpy	0x5000			N/A
+0xffffc0748240	async_pq	0x6000			N/A
+0xffffc073f1c0	async_xor	0x5000			N/A
+0xffffc07390c0	async_tx	0x5000			N/A
+0xffffc07330c0	xor	0x6000			N/A
+0xffffc072bbc0	raid6_pq	0x1e000			N/A
+0xffffc070d040	libcrc32c	0x4000			N/A
+0xffffc06c3480	raid1	0xc000			N/A
+0xffffc0655600	raid0	0x6000		default_layout=None	N/A
+0xffffc050b280	multipath	0x5000			N/A
+0xffffc04a5180	linear	0x5000			N/A
+0xffffc064e140	hid_generic	0x4000			N/A
+0xffffc06b4300	usbhid	0x10000		quirks=None,None,None,None, ignoreled=None, kbpoll=None, jspoll=None, mousepoll=None	N/A
+0xffffc06ff500	hid	0x25000		ignore_special_drivers=None, debug=None	N/A
+0xffffc05b5240	crct10dif_pclmul	0x4000			N/A
+0xffffc057c240	crc32_pclmul	0x4000			N/A
+0xffffc054d440	ghash_clmulni_intel	0x4000			N/A
+0xffffc049f180	bochs	0x4000		defy=None, defx=None, modeset=None	N/A
+0xffffc0498140	sha256_ssse3	0x8000			N/A
+0xffffc0565340	drm_vram_helper	0x6000			N/A
+0xffffc0535040	drm_ttm_helper	0x4000			N/A
+0xffffc06d8640	ttm	0x15000		dma32_pages_limit=None, pages_limit=None, page_pool_size=None	N/A
+0xffffc068d740	drm_kms_helper	0x4d000		dp_aux_i2c_transfer_size=None, dp_aux_i2c_speed_khz=None, poll=None, edid_firmware=None, drm_fbdev_overalloc=None, fbdev_emulation=None, drm_dp_cec_unregister_delay=None	N/A
+0xffffc04ae000	syscopyarea	0x4000			N/A
+0xffffc048b8c0	sha1_ssse3	0x8000			N/A
+0xffffc063efc0	aesni_intel	0x5c000			N/A
+0xffffc05e9040	crypto_simd	0x4000			N/A
+0xffffc05e04c0	sysfillrect	0x5000			N/A
+0xffffc05d2180	cryptd	0x6000		cryptd_max_cpu_qlen=None	N/A
+0xffffc05c8340	sysimgblt	0x4000			N/A
+0xffffc05c1040	fb_sys_fops	0x4000			N/A
+0xffffc05a79c0	psmouse	0x2d000		resync_time=None, resetafter=None, a4tech_workaround=None, smartscroll=None, rate=None, resolution=None, proto=None, synaptics_intertouch=None, elantech_smbus=None	N/A
+0xffffc0575440	cec	0x10000		debug_phys_addr=None, debug=None	N/A
+0xffffc055cac0	rc_core	0x10000			N/A
+0xffffc0546c80	virtio_net	0x10000		napi_tx=None, gso=None, csum=None, napi_weight=None	N/A
+0xffffc0530600	i2c_i801	0x9000		disable_features=None	N/A
+0xffffc051f180	i2c_smbus	0x5000			N/A
+0xffffc0515080	net_failover	0x5000			N/A
+0xffffc0505b00	ahci	0xc000		mobile_lpm_policy=None, marvell_enable=None	N/A
+0xffffc04f3380	xhci_pci	0x6000			N/A
+0xffffc04e6380	lpc_ich	0x7000			N/A
+0xffffc04d5b40	libahci	0xc000		devslp_idle_timeout=None, ahci_em_messages=None, ignore_sss=None, skip_host_reset=None	N/A
+0xffffc04c5180	virtio_rng	0x4000			N/A
+0xffffc04ba380	virtio_blk	0x5000		queue_depth=None	N/A
+0xffffc044e9c0	drm	0x98000		edid_fixup=None, debug=None, timestamp_precision_usec=None, vblankoffdelay=None, edid_firmware=	N/A
+0xffffc03e7340	xhci_pci_renesas	0x5000			N/A
+0xffffc03dc100	failover	0x4000			N/A
